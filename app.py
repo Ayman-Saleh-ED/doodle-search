@@ -92,5 +92,3 @@ if query_img is not None:
                     cols[c].image(gallery[idx[i]].reshape(28, 28),
                                   caption=f"{scores[i]:.2f}",
                                   use_container_width=True)
-
-st.caption("Doodles: Google Quick, Draw! dataset, CC BY 4.0.")
